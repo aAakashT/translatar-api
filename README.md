@@ -52,7 +52,7 @@ The Translation API allows you to translate text from one language to another us
 ```http```
 GET /api/translate/?source=en&target=fr+mr
 Authorization: Bearer <JWT_TOKEN>
-request.body(json type):  [{"text": "Hello"}]
+request.body(json type):  [{"text": "Hello"}] or [{"text": "first to translate"},{"text": "second to translate"}]
 
 
 
